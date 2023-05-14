@@ -1,4 +1,18 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+$custom1: #F1F6F9;
+$custom2: #394867;
+$custom3: #212A3E;
+$custom4: #9BA4B5;
+
+
+$primary:       $custom2;
+$secondary:     $custom1;
+
+$carousel-caption-width:             100%;
+$carousel-caption-color:            $custom1;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+
 
 
 .carousel-item{
@@ -13,7 +27,7 @@
     width: 100%;
 }
 
-$carousel-caption-width:             100%;
-$carousel-caption-color:             black;
-$carousel-caption-padding-y:         1.25rem;
-$carousel-caption-spacer:            1.25rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
