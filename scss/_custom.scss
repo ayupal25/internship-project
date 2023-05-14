@@ -1,2 +1,19 @@
-
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.carousel-item{
+    height: 400px;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+} 
+.carousel-item img{
+    height: 400px;
+    width: 100%;
+}
+
+$carousel-caption-width:             100%;
+$carousel-caption-color:             black;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;

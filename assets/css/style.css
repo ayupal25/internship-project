@@ -11850,5 +11850,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
