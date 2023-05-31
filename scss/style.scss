@@ -1,1 +1,35 @@
-@use 'custom';
+$custom1: #f1f6f9;
+$custom2: #394867;
+$custom3: #212a3e;
+$custom4: #9ba4b5;
+
+$primary: $custom2;
+$secondary: $custom1;
+
+$carousel-caption-width: 100%;
+$carousel-caption-color: $custom1;
+$carousel-caption-padding-y: 1.25rem;
+$carousel-caption-spacer: 1.25rem;
+
+.carousel-item {
+  height: 400px;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+}
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  transition: 0.4s all;
+}
+
+.btn-primary:hover {
+  transform: scale(1.2);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
